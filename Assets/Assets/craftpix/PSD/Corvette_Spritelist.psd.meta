@@ -1,0 +1,2807 @@
+fileFormatVersion: 2
+guid: ea2ebca8f089ade42a845b0b9dd0c2e4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Corvette_Spritelist_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1809
+        width: 175
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6360a0a906cf04bb8b741e408d714f
+      internalID: -366307666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1437
+        width: 3070
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483c5d74841954c48a0a37cdac66d723
+      internalID: -868868642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1618
+        width: 190
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c80325691275b74e852ff63d57748a8
+      internalID: 968140377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1618
+        width: 191
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bcf63065aabf74ba2897f627ac2a38
+      internalID: 1096299999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1618
+        width: 193
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99499e455f36d346bfdd75ad6cd73bb
+      internalID: 1657026020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1618
+        width: 189
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592df7bf69f154245816f80333ae1f19
+      internalID: 1878813813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1618
+        width: 191
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114583f8ce9316a4daef7022d4980dcd
+      internalID: -950480675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1425
+        width: 190
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38f59543b0384d4b8fbd45f879356bf
+      internalID: 1979912045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1425
+        width: 193
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2aae86c0cce9544e84ca5a72aa5b0a3
+      internalID: 1078586397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1425
+        width: 193
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a1bf0b431ddf5439d68e6b8618cae7
+      internalID: -1893917880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1425
+        width: 193
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f4c357aa296a04ca08e293eefc2175
+      internalID: 1626266946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 1425
+        width: 193
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a531974cddb167469bf483a8819658d
+      internalID: 166640740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1234
+        width: 173
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882362260bec1fb4ca61076c15c3109f
+      internalID: -463413099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1234
+        width: 175
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1211e4aa14d564ab4e006b22a619a5
+      internalID: -1147266487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1234
+        width: 173
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa4dac50ae72d54c8e98ae3e8e376fc
+      internalID: -702102000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1234
+        width: 181
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ae1a5d98d18c6419de0e45b576211d
+      internalID: -507368526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1251
+        width: 52
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4ad2503c9674142bf25ff5621f7c53
+      internalID: -1696342053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1041
+        width: 175
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3763bda8d8e8f4385c26040af42fa3
+      internalID: 2127371067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1041
+        width: 173
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b752ee6cc0474ec47ab019afe6753f7f
+      internalID: -1202005474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1041
+        width: 175
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe59cbec82b60b458e165686a723980
+      internalID: 915802146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1041
+        width: 181
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b620ce41745ca40bfb671a41437ecf
+      internalID: 1685694688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1080
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc310d0e43919b4abd5fde11f20a292
+      internalID: -1564251705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 852
+        width: 175
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cae6912c841a94e9f2e990d2d84c6c
+      internalID: 933873370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 852
+        width: 173
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec75be69886a9f443a01ae8d8230f685
+      internalID: -635166935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 852
+        width: 175
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28784da7f59e8244eb256619b83fc51e
+      internalID: -70518216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 852
+        width: 173
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0333d580c9ea44c48bc48ef89602d32c
+      internalID: 258364701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 852
+        width: 175
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7126a782f6d44b249b1e8f35a2b877b6
+      internalID: -12569021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 852
+        width: 173
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b927de6a6d625a2428e26cf9e1489158
+      internalID: 809505045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 852
+        width: 175
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fdfe3a438589d46b7571708c50c3ca
+      internalID: 1595776425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 899
+        width: 41
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89e1e77c72fe624782a35eac60aa4a5
+      internalID: 433420616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 637
+        width: 179
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90416417a533a93498e31323fe8f1f19
+      internalID: 1158450445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 637
+        width: 181
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c66201368e1cb4981006f1b06ad0d3
+      internalID: -1238659598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 637
+        width: 183
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4b0db197823f743b896f0a3b2efbf6
+      internalID: 492683090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 637
+        width: 181
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41d2cbf41a0ee64abf863b79ebeed3d
+      internalID: -1556501906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 637
+        width: 179
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1639cd1b7a1e6b488f719cc3ca8059c
+      internalID: -1715023613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 637
+        width: 175
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9c18e065ec55d4cb880fc8fd437c28
+      internalID: 560124974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 466
+        width: 175
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8d1138f815c1f48a43f223a2d11fa1
+      internalID: -614673894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 466
+        width: 173
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89d77562b9aff943a774a7a4ef9fab9
+      internalID: 277663656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 466
+        width: 175
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01284432dc6fb843bcd68c01bb7a8c0
+      internalID: 1458749491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 466
+        width: 173
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff13e06237181714685eab116130855a
+      internalID: 1819974872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 466
+        width: 175
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f27b7695f860f448e011839ab8fe73
+      internalID: -459592535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 466
+        width: 173
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfa8ea900c108348b6213ec23994821
+      internalID: -482802057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 466
+        width: 175
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29521eea8aff174393fae0ec7c8a5e6
+      internalID: 1287366710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 466
+        width: 174
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7143079b8f1b36745b8c7f08cbefcf24
+      internalID: 1010024358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 342
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3189983739264429d8d1093e35439b
+      internalID: -1994490451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 355
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f83bad3e1bae54b81d79adf111597e
+      internalID: 865996388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 227
+        width: 175
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9eaeddbd27b5d429ca68a14afa0843
+      internalID: -1158568670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 342
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b4505360c5da143bd3413254a739a6
+      internalID: -860175710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 349
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43dcbf7353f81a4ea6bccc47275a469
+      internalID: -843459327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 346
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66c4024f220354498609800eab9b41d
+      internalID: -1168831845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 227
+        width: 173
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591d8e8fe10f2fc44ac5fef48fffcdfd
+      internalID: -1433723197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 334
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772df03c1736d2540916c4e1afad64f3
+      internalID: 2143857472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 340
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b53f843e787efd4fa76586f257517af
+      internalID: -1911786467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_53
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 338
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5649587f25a3f5468e4b3f25ce67872
+      internalID: -1093712505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_54
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 338
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc0a3313a0cd2c44847897bde7344d6
+      internalID: 1084605769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_55
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 340
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49a6d0dd12cf9c4aa3f8f43f5f2cf96
+      internalID: -1460896541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_56
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 227
+        width: 173
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9197961f309094fa681400cee0c926
+      internalID: 619316790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_57
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 227
+        width: 175
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef23c7ebe8f264946a96f1f543f05f6a
+      internalID: 382954018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_58
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 227
+        width: 173
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515653b8a1c49a6409420b5209fe0897
+      internalID: 1389456259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_59
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 328
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796aa7ed60ea3ee48a07ccb26b7b9303
+      internalID: -2016175397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_60
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 227
+        width: 175
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3ba944c5d20ea4a9a5f68926e81290
+      internalID: 44858414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_61
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 326
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8170f961d465b4185bed4b75a64b31
+      internalID: 2038707185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 172
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c0a4af7735cb545824e138f378a0f1
+      internalID: 591853079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_63
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 227
+        width: 175
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772d834a3fdc5a54cb90308a8ee8e2da
+      internalID: 261262524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_64
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 227
+        width: 173
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf1f2a942d6094419f4be2ce553c557
+      internalID: 1028186252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_65
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 227
+        width: 175
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb5eb5a9c5a85c468d49c1a64c67a15
+      internalID: -203386983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_66
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 36
+        width: 176
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2a98f511000d845844756e2c811143
+      internalID: 2079573260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_67
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 1
+        width: 386
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488bdf823b2faa34d8f0bb92ea6bedb7
+      internalID: -1555597584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_68
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 141
+        width: 83
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d822f5bea3f0c4442a65ff960f42d473
+      internalID: -1539529951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_69
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 182
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb9d2f78a2b2ba46ae291fec4198925
+      internalID: -269685316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_70
+      rect:
+        serializedVersion: 2
+        x: 2938
+        y: 188
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b526ded228822348b0796ea16f4e730
+      internalID: -491627099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_71
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 19
+        width: 173
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51c3bc705c7d554b8abc870b9fb8e07
+      internalID: -338537856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_72
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 13
+        width: 175
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4181ac821bc3a4884c5727ac399b66
+      internalID: 119522235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_73
+      rect:
+        serializedVersion: 2
+        x: 3513
+        y: 184
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e886049c1c0971b47bb274ceb9c2adb5
+      internalID: 705701655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_74
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 186
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15daaeff40d1583419dd7b45f1cb5e93
+      internalID: 1728535003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_75
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 182
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49b4622d720f8b40be44229b3c7a595
+      internalID: 1443144642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_76
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 182
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6140cf9b69bc6664c8bbec6329b1c2ca
+      internalID: 343855238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_77
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 11
+        width: 183
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88ed96b44978f8428e157f9d515328b
+      internalID: -1412979007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_78
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 36
+        width: 174
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766da79c206d03a41a0885c5bc40beb4
+      internalID: -77769025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_79
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 174
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0636408d6d5d0704f98adfe0cf58c229
+      internalID: 518137297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_80
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 34
+        width: 175
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519c522989dff864985bd98bc60c11b3
+      internalID: 785195040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_81
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 31
+        width: 173
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f74822c27585d40b7611b933bb4af7
+      internalID: -34867409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_82
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 160
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac06e62614341c049aafc8ee273998e6
+      internalID: -1311374652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_83
+      rect:
+        serializedVersion: 2
+        x: 3677
+        y: 170
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10737675522fd5c4691af1d0f1cedf7e
+      internalID: -2077634151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_84
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 174
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d54eb4cf6f95c49bfc0cc125f12832
+      internalID: 361087086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_85
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 0
+        width: 174
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b6af8740aa5d04e8156cc1da4dc3b0
+      internalID: 965205254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_86
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 34
+        width: 174
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba51cbaba93e9624ab2bb61245f2c281
+      internalID: -577078437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_87
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 145
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4c63cb990b96e4dbe0226f70d9adb1
+      internalID: -967994648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_88
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 159
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6afdb971a13835459bcc416b4cc4c22
+      internalID: 1009952013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_89
+      rect:
+        serializedVersion: 2
+        x: 3679
+        y: 161
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036dc2664ec47bd46ad60e1f1aa4df3c
+      internalID: 1883697691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_90
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0934467d5420dc4f87a3fd43fb3818c
+      internalID: -1968189668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_91
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 137
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69808ba9d6fe3bb40a3cd555b45ff69b
+      internalID: 1230763456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_92
+      rect:
+        serializedVersion: 2
+        x: 3673
+        y: 151
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88846778940d5f4781ba3d759919d3d
+      internalID: 1428331687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_93
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 36
+        width: 175
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7be31969d5012f42afb9f92b3b12a79
+      internalID: 1219446956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_94
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 36
+        width: 173
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fd5d1f888d69d49ba0b889245f9a1e
+      internalID: -2122513912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_95
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 31
+        width: 175
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfdcf0166344b7478428795657f6d5d
+      internalID: -349718656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_96
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 11
+        width: 173
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550c563a77652e44bb4fb6e44bde190c
+      internalID: -188115483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_97
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 9
+        width: 175
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea70508901a4dfb4699dde7338d05c32
+      internalID: 1490616891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_98
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 5
+        width: 173
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fe28398bf6c2246a0bc6c6f575da4d
+      internalID: -1621657941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_99
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 0
+        width: 175
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0598980501b95f64c8fe405813b6af78
+      internalID: 1619388717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_100
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 9
+        width: 174
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9983163f11941ed42970b231354ecf65
+      internalID: -2034797427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_101
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 52
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35ef7d6ea86dfd4199a96b8d59a3c79
+      internalID: -808494856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_102
+      rect:
+        serializedVersion: 2
+        x: 3460
+        y: 17
+        width: 185
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec87a0496bec9743bca95a7fe6a55e2
+      internalID: -551380127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_103
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 17
+        width: 14
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b8217223ad5c14f80c3e7e286c4e96
+      internalID: -1096326648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_104
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 36
+        width: 185
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad97ca4e9ea8b744811a1d2320ec264
+      internalID: -40226893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_105
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 0
+        width: 103
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82e2c881b883fc4190e8bc9344beadf
+      internalID: -1400608632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_106
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 29
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c239a02afdea33144afa8ba331b67f1b
+      internalID: -1508824620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_107
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 33
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959782d6025bd684b99d386b88e16ac4
+      internalID: -771476678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_108
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 11
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fd3d87fa66c7b4a8b9d69ac0597535
+      internalID: -1232990684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_109
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 0
+        width: 105
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db04318d303b154bbae9850708ca6d9
+      internalID: 367991334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_110
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 27
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588d139164e4ffe4ba4437266bd6a8fc
+      internalID: -2031712762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_111
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e43379156b65940adbbdf5f4207a7d
+      internalID: 1835105624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_112
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d91c914739fe74eb1f76ed2968b726
+      internalID: 398252422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_113
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 0
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096af87b481d8d547bf40c5f658a2033
+      internalID: 1140447489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_114
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 17
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a05a66b2c445694486f52e7e7495a2b
+      internalID: -1947301870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_115
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 0
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e263d1ac8b1516e4b883caf60a5a7462
+      internalID: -2112538151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_116
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 3
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0421e9be69cca4cb060ef775be288a
+      internalID: -2079161656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_117
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36299cfedf82f64e887f8356b114b35
+      internalID: 388768167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_118
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 0
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9b2204b84916644b7cc06dafb0ec31
+      internalID: 848136981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_119
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed826000986918346b2b448e44308d16
+      internalID: -704429323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_120
+      rect:
+        serializedVersion: 2
+        x: 2493
+        y: 0
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a367bdb0ed8c3459076eadf15164b6
+      internalID: 2136327625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corvette_Spritelist_121
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade68f777da26094b87d34d6092f9b71
+      internalID: -1083651822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Corvette_Spritelist_0: -366307666
+      Corvette_Spritelist_1: -868868642
+      Corvette_Spritelist_10: 1626266946
+      Corvette_Spritelist_100: -2034797427
+      Corvette_Spritelist_101: -808494856
+      Corvette_Spritelist_102: -551380127
+      Corvette_Spritelist_103: -1096326648
+      Corvette_Spritelist_104: -40226893
+      Corvette_Spritelist_105: -1400608632
+      Corvette_Spritelist_106: -1508824620
+      Corvette_Spritelist_107: -771476678
+      Corvette_Spritelist_108: -1232990684
+      Corvette_Spritelist_109: 367991334
+      Corvette_Spritelist_11: 166640740
+      Corvette_Spritelist_110: -2031712762
+      Corvette_Spritelist_111: 1835105624
+      Corvette_Spritelist_112: 398252422
+      Corvette_Spritelist_113: 1140447489
+      Corvette_Spritelist_114: -1947301870
+      Corvette_Spritelist_115: -2112538151
+      Corvette_Spritelist_116: -2079161656
+      Corvette_Spritelist_117: 388768167
+      Corvette_Spritelist_118: 848136981
+      Corvette_Spritelist_119: -704429323
+      Corvette_Spritelist_12: -463413099
+      Corvette_Spritelist_120: 2136327625
+      Corvette_Spritelist_121: -1083651822
+      Corvette_Spritelist_13: -1147266487
+      Corvette_Spritelist_14: -702102000
+      Corvette_Spritelist_15: -507368526
+      Corvette_Spritelist_16: -1696342053
+      Corvette_Spritelist_17: 2127371067
+      Corvette_Spritelist_18: -1202005474
+      Corvette_Spritelist_19: 915802146
+      Corvette_Spritelist_2: 968140377
+      Corvette_Spritelist_20: 1685694688
+      Corvette_Spritelist_21: -1564251705
+      Corvette_Spritelist_22: 933873370
+      Corvette_Spritelist_23: -635166935
+      Corvette_Spritelist_24: -70518216
+      Corvette_Spritelist_25: 258364701
+      Corvette_Spritelist_26: -12569021
+      Corvette_Spritelist_27: 809505045
+      Corvette_Spritelist_28: 1595776425
+      Corvette_Spritelist_29: 433420616
+      Corvette_Spritelist_3: 1096299999
+      Corvette_Spritelist_30: 1158450445
+      Corvette_Spritelist_31: -1238659598
+      Corvette_Spritelist_32: 492683090
+      Corvette_Spritelist_33: -1556501906
+      Corvette_Spritelist_34: -1715023613
+      Corvette_Spritelist_35: 560124974
+      Corvette_Spritelist_36: -614673894
+      Corvette_Spritelist_37: 277663656
+      Corvette_Spritelist_38: 1458749491
+      Corvette_Spritelist_39: 1819974872
+      Corvette_Spritelist_4: 1657026020
+      Corvette_Spritelist_40: -459592535
+      Corvette_Spritelist_41: -482802057
+      Corvette_Spritelist_42: 1287366710
+      Corvette_Spritelist_43: 1010024358
+      Corvette_Spritelist_44: -1994490451
+      Corvette_Spritelist_45: 865996388
+      Corvette_Spritelist_46: -1158568670
+      Corvette_Spritelist_47: -860175710
+      Corvette_Spritelist_48: -843459327
+      Corvette_Spritelist_49: -1168831845
+      Corvette_Spritelist_5: 1878813813
+      Corvette_Spritelist_50: -1433723197
+      Corvette_Spritelist_51: 2143857472
+      Corvette_Spritelist_52: -1911786467
+      Corvette_Spritelist_53: -1093712505
+      Corvette_Spritelist_54: 1084605769
+      Corvette_Spritelist_55: -1460896541
+      Corvette_Spritelist_56: 619316790
+      Corvette_Spritelist_57: 382954018
+      Corvette_Spritelist_58: 1389456259
+      Corvette_Spritelist_59: -2016175397
+      Corvette_Spritelist_6: -950480675
+      Corvette_Spritelist_60: 44858414
+      Corvette_Spritelist_61: 2038707185
+      Corvette_Spritelist_62: 591853079
+      Corvette_Spritelist_63: 261262524
+      Corvette_Spritelist_64: 1028186252
+      Corvette_Spritelist_65: -203386983
+      Corvette_Spritelist_66: 2079573260
+      Corvette_Spritelist_67: -1555597584
+      Corvette_Spritelist_68: -1539529951
+      Corvette_Spritelist_69: -269685316
+      Corvette_Spritelist_7: 1979912045
+      Corvette_Spritelist_70: -491627099
+      Corvette_Spritelist_71: -338537856
+      Corvette_Spritelist_72: 119522235
+      Corvette_Spritelist_73: 705701655
+      Corvette_Spritelist_74: 1728535003
+      Corvette_Spritelist_75: 1443144642
+      Corvette_Spritelist_76: 343855238
+      Corvette_Spritelist_77: -1412979007
+      Corvette_Spritelist_78: -77769025
+      Corvette_Spritelist_79: 518137297
+      Corvette_Spritelist_8: 1078586397
+      Corvette_Spritelist_80: 785195040
+      Corvette_Spritelist_81: -34867409
+      Corvette_Spritelist_82: -1311374652
+      Corvette_Spritelist_83: -2077634151
+      Corvette_Spritelist_84: 361087086
+      Corvette_Spritelist_85: 965205254
+      Corvette_Spritelist_86: -577078437
+      Corvette_Spritelist_87: -967994648
+      Corvette_Spritelist_88: 1009952013
+      Corvette_Spritelist_89: 1883697691
+      Corvette_Spritelist_9: -1893917880
+      Corvette_Spritelist_90: -1968189668
+      Corvette_Spritelist_91: 1230763456
+      Corvette_Spritelist_92: 1428331687
+      Corvette_Spritelist_93: 1219446956
+      Corvette_Spritelist_94: -2122513912
+      Corvette_Spritelist_95: -349718656
+      Corvette_Spritelist_96: -188115483
+      Corvette_Spritelist_97: 1490616891
+      Corvette_Spritelist_98: -1621657941
+      Corvette_Spritelist_99: 1619388717
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
