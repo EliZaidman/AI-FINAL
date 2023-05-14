@@ -11,16 +11,16 @@ public class GreenEnemy : MonoBehaviour
     // shooting variables
     public GameObject laserPrefab;
     public Transform[] firePoints;
-    public float fireRate = 3f;
+    public float fireRate = 1f;
     private float nextFireTime = 0f;
 
     // shield variables
-    public int maxShield = 50;
-    private int currentShield;
+    public float maxShield = 50;
+    private float currentShield;
 
     // health variables
     public int maxHealth = 100;
-    private int currentHealth;
+    private float currentHealth;
 
     // state machine variables
     public enum EnemyState { Moving, Shooting, Shielded, Destroyed };
@@ -56,12 +56,12 @@ public class GreenEnemy : MonoBehaviour
         if (movingRight)
         {
             transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
-            transform.localScale = new Vector2(1, 1);
+            transform.localScale = new Vector2(2, 2);
         }
         else
         {
             transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
-            transform.localScale = new Vector2(-1, 1);
+            transform.localScale = new Vector2(-2, 2);
         }
 
         // check if at edge of screen, then change direction
@@ -94,7 +94,7 @@ public class GreenEnemy : MonoBehaviour
         currentState = EnemyState.Moving;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         // check if shield is still active
         if (currentState == EnemyState.Shielded)
@@ -121,6 +121,24 @@ public class GreenEnemy : MonoBehaviour
             {
                 currentState = EnemyState.Destroyed;
             }
+        }
+    }
+
+    private void LateUpdate()
+    {
+        // get the camera object
+        var camera = Camera.main;
+
+        // calculate the distance between the enemy and the camera
+        var distance = (transform.position - camera.transform.position).sqrMagnitude;
+
+        // if the enemy is too far away, move it closer
+        if (distance > 600)
+        {
+            var direction = (camera.transform.position - transform.position).normalized;
+            transform.position += direction * Time.deltaTime * 50;
+
+            transform.position = new Vector3(transform.position.x, transform.position.y, 0);
         }
     }
 }

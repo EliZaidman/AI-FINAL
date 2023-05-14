@@ -19,7 +19,7 @@ public class BlueEnemy : MonoBehaviour
 
     // health variables
     public int maxHealth = 100;
-    private int currentHealth;
+    private float currentHealth;
 
     // state machine variables
     public enum EnemyState { Moving, DroppingBombs, Cloaked, Destroyed };
@@ -95,7 +95,7 @@ public class BlueEnemy : MonoBehaviour
         gameObject.GetComponent<Collider2D>().enabled = true;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         // take damage only if not cloaked
         if (currentState != EnemyState.Cloaked)

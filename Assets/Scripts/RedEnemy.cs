@@ -80,8 +80,8 @@ public class RedEnemy : MonoBehaviour
 
     private Vector3 GetRandomPosition()
     {
-        float x = Random.Range(-5f, 5f);
-        float y = Random.Range(-3f, 3f);
+        float x = Random.Range(-10f, 10f);
+        float y = Random.Range(-30f, 30f);
         return new Vector3(x, y, transform.position.z);
     }
 
