@@ -16,6 +16,14 @@ public class PlayerBullet : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         print("HIT!@IJHU");
+
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            collision.gameObject.SetActive(false);
+            print("DAFAK");
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
         if (collision.gameObject.CompareTag("Enemy"))
         {
             RedEnemy enemy = collision.gameObject.GetComponent<RedEnemy>();

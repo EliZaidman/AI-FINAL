@@ -14,9 +14,9 @@ public class BlueEnemy : MonoBehaviour
     private float nextBombTime = 0f;
 
     // cloaking variables
-    public float cloakDuration = 5f;
-    private float cloakEndTime = 0f;
-
+    public float cloakDuration = 3f;
+    public float cloakStartTime = 0f;
+    bool hasBeenClocked = false;
     // health variables
     public int maxHealth = 100;
     private float currentHealth;
@@ -41,6 +41,7 @@ public class BlueEnemy : MonoBehaviour
                 DropBomb();
                 break;
             case EnemyState.Cloaked:
+                Cloak();
                 break;
             case EnemyState.Destroyed:
                 Destroy(gameObject);
@@ -59,6 +60,10 @@ public class BlueEnemy : MonoBehaviour
             currentState = EnemyState.DroppingBombs;
             nextBombTime = Time.time + bombRate;
         }
+        if (currentHealth <=50 && !hasBeenClocked)
+        {
+            currentState = EnemyState.Cloaked;
+        }
     }
 
     private void DropBomb()
@@ -72,15 +77,21 @@ public class BlueEnemy : MonoBehaviour
 
     public void Cloak()
     {
+        hasBeenClocked = true;
         // activate the cloaking device
-        cloakEndTime = Time.time + cloakDuration;
+        cloakStartTime += Time.deltaTime;
         currentState = EnemyState.Cloaked;
 
         // make the enemy temporarily invisible
-        gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
 
         // make the enemy temporarily invulnerable
         gameObject.GetComponent<Collider2D>().enabled = false;
+        if (cloakStartTime >= cloakDuration)
+        {
+            cloakStartTime = 0;
+            Uncloak();
+        }
     }
 
     public void Uncloak()
@@ -89,7 +100,7 @@ public class BlueEnemy : MonoBehaviour
         currentState = EnemyState.Moving;
 
         // make the enemy visible again
-        gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        gameObject.GetComponentInChildren<SpriteRenderer>().enabled = true;
 
         // make the enemy vulnerable again
         gameObject.GetComponent<Collider2D>().enabled = true;
