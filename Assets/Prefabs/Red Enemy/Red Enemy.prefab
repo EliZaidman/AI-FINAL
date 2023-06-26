@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  fireRate: 2
+  fireRate: 4
   bulletSpeed: 10
   health: 10
   playerTransform: {fileID: 0}

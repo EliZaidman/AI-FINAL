@@ -24,7 +24,7 @@ public class SpawnManager : MonoBehaviour
         {
             timer = 0;
             // Instantiate(enemieTypes[0], spawnPoints[0], Quaternion.identity);
-            for (int i = 0; i < Random.Range(0,3); i++)
+            for (int i = 0; i < Random.Range(1,4); i++)
             {
                 GameObject bullet = Instantiate(enemieTypes[Random.Range(0, enemieTypes.Count)], spawnPoints[Random.Range(0, spawnPoints.Count - 1)].transform.position, Quaternion.identity);
                 bullet.transform.position = new Vector3(bullet.transform.position.x, bullet.transform.position.y, 0);

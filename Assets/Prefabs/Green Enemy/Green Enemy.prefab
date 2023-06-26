@@ -1037,7 +1037,7 @@ MonoBehaviour:
   - {fileID: 2029342044}
   - {fileID: 2002863601}
   - {fileID: 1576709830}
-  fireRate: 3
+  fireRate: 1
   maxShield: 50
   maxHealth: 100
   currentState: 0

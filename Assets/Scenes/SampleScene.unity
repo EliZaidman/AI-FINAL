@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &296531760
 Transform:
   m_ObjectHideFlags: 0
@@ -169,7 +169,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &380063615
 Transform:
   m_ObjectHideFlags: 0
@@ -538,7 +538,7 @@ MonoBehaviour:
   - {fileID: 2782563991941339486, guid: f53e8d93b638a4844bb32a19dd61474c, type: 3}
   - {fileID: 2608437047933958247, guid: e05cd1e088cf55c4c863d6ec39d7ed96, type: 3}
   timer: 0
-  timeTillSpawn: 1
+  timeTillSpawn: 0.5
 --- !u!4 &1198121001
 Transform:
   m_ObjectHideFlags: 0
@@ -741,7 +741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2145839361
 Transform:
   m_ObjectHideFlags: 0
@@ -798,7 +798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3856806400984652209, guid: 1232dd74445d13a49aa136f67b78ccc4, type: 3}
       propertyPath: moveSpeed
-      value: 15
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3856806400984652209, guid: 1232dd74445d13a49aa136f67b78ccc4, type: 3}
       propertyPath: bulletSpeed
