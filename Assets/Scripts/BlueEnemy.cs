@@ -83,7 +83,7 @@ public class BlueEnemy : MonoBehaviour
         currentState = EnemyState.Cloaked;
 
         // make the enemy temporarily invisible
-        gameObject.GetComponentInChildren<SpriteRenderer>().enabled = false;
+        gameObject.GetComponentInChildren<SpriteRenderer>().color = new Color(1,1,1, 0.10f);
 
         // make the enemy temporarily invulnerable
         gameObject.GetComponent<Collider2D>().enabled = false;
@@ -100,7 +100,7 @@ public class BlueEnemy : MonoBehaviour
         currentState = EnemyState.Moving;
 
         // make the enemy visible again
-        gameObject.GetComponentInChildren<SpriteRenderer>().enabled = true;
+        gameObject.GetComponentInChildren<SpriteRenderer>().color = new Color(0, 0, 1, 1);
 
         // make the enemy vulnerable again
         gameObject.GetComponent<Collider2D>().enabled = true;
@@ -117,6 +117,7 @@ public class BlueEnemy : MonoBehaviour
             if (currentHealth <= 0)
             {
                 currentState = EnemyState.Destroyed;
+                SCORE.Instance.AddToScore(10);
                 PlayerController.Instance.GivePlayerHP(10);
             }
         }

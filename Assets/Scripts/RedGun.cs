@@ -38,14 +38,21 @@ public class RedGun : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        // Check if the projectile collides with the player
-        PlayerController player = other.GetComponent<PlayerController>();
-        if (player != null)
+        print("BLUE GUN HIT");
+        if (collision.gameObject.CompareTag("Player"))
         {
-            player.TakeDamage(damage);
+            PlayerController enemy = collision.gameObject.GetComponent<PlayerController>();
+            enemy.TakeDamage(damage);
+            print("HIT!");
             Destroy(gameObject);
+        }
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            print("DAFAK");
+            Destroy(gameObject);
+            SCORE.Instance.AddToScore(1);
         }
     }
 }

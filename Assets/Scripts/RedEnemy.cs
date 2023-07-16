@@ -143,6 +143,8 @@ public class RedEnemy : MonoBehaviour
         if (HP <= 0)
         {
             Destroy(gameObject);
+            SCORE.Instance.AddToScore(5);
+            PlayerController.Instance.GivePlayerHP(10);
         }
     }
 }

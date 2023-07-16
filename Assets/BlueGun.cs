@@ -48,6 +48,7 @@ public class BlueGun : MonoBehaviour
         {
             print("DAFAK");
             Destroy(gameObject);
+            SCORE.Instance.AddToScore(1);
         }
     }
 }

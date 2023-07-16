@@ -9,25 +9,36 @@ public class Shotgun : MonoBehaviour
     public int damage = 10;
 
     public GameObject targetPosition;
-
+    private Transform player;
+    private Vector2 direction;
     void Start()
     {
-        if (targetPosition == null)
-        {
-            targetPosition = GameObject.Find("PlayerA");
-        }
         transform.rotation = Quaternion.Euler(0, 0, transform.rotation.y * 3);
         Destroy(gameObject, lifetime);
+        player = PlayerController.Instance.transform;
+        Destroy(gameObject, lifetime);
+        CalculateDirection();
     }
 
-    void Update()
+    private void Update()
     {
-        //transform.position += transform.forward * speed * Time.deltaTime;
-        if (!targetPosition)
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition.transform.position, speed * Time.deltaTime);
-
+        Move();
     }
 
+    private void Move()
+    {
+        // Move the projectile towards the player
+        transform.Translate(direction * speed * Time.deltaTime);
+    }
+
+    private void CalculateDirection()
+    {
+        // Calculate the direction towards the player
+        if (player != null)
+        {
+            direction = (player.position - transform.position).normalized;
+        }
+    }
     public void Fire(Vector3 target)
     {
         targetPosition.transform.position = target; // Set the target position to move towards
@@ -39,8 +50,13 @@ public class Shotgun : MonoBehaviour
         {
             PlayerController enemy = collision.gameObject.GetComponent<PlayerController>();
             enemy.TakeDamage(damage);
-            print("HIT!");
             Destroy(gameObject);
+        }
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            print("DAFAK");
+            Destroy(gameObject);
+            SCORE.Instance.AddToScore(1);
         }
     }
 }

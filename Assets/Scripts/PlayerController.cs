@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
                 }
 
                 // Make sure the singleton instance persists between scene changes
-                DontDestroyOnLoad(instance.gameObject);
+                //DontDestroyOnLoad(instance.gameObject);
             }
 
             return instance;

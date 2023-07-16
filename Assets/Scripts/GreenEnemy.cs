@@ -15,8 +15,8 @@ public class GreenEnemy : MonoBehaviour
     private float nextFireTime = 0f;
 
     // shield variables
-    public float maxShield = 50;
-    private float currentShield;
+    public float maxShield = 5000;
+    public float currentShield = 5000;
 
     // health variables
     public int maxHealth = 100;
@@ -52,8 +52,11 @@ public class GreenEnemy : MonoBehaviour
 
     private void Move()
     {
-        // move horizontally from right to left
-        if (movingRight)
+        // Rotate towards the player
+        //Vector3 direction = (PlayerController.Instance.transform.position - transform.position).normalized;
+        //Quaternion lookRotation = Quaternion.LookRotation(Vector3.forward, direction);
+        //transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, 2 * Time.deltaTime);
+        if (!movingRight)
         {
             transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
             transform.localScale = new Vector2(2, 2);
@@ -84,10 +87,26 @@ public class GreenEnemy : MonoBehaviour
 
     private void Shoot()
     {
-        // shoot a spread of three laser beams in a fan shape
-        for (int i = 0; i < firePoints.Length; i++)
+        // Calculate the angle between bullets in the cone
+        float angleStep = 360f / 8f;
+
+        // Spawn bullets in a cone shape
+        for (int i = 0; i < 8; i++)
         {
-            Instantiate(laserPrefab, firePoints[i].position, firePoints[i].rotation);
+            // Calculate the rotation for each bullet in the cone
+            Quaternion bulletRotation = Quaternion.Euler(0f, 0f, angleStep * i);
+
+            // Instantiate a projectile and set its damage and rotation
+            GameObject projectile = Instantiate(laserPrefab, firePoints[5].position, bulletRotation);
+            Shotgun projectileController = projectile.GetComponent<Shotgun>();
+           // projectileController.damage = currentDamage;
+
+            // Set the projectile's velocity based on its forward direction
+            Rigidbody2D projectileRigidbody = projectile.GetComponent<Rigidbody2D>();
+            projectileRigidbody.velocity = projectile.transform.up * projectileController.speed;
+
+            // Destroy the projectile after a certain time
+            Destroy(projectile, 5f);
         }
 
         // switch back to moving state
@@ -100,15 +119,17 @@ public class GreenEnemy : MonoBehaviour
         if (currentState == EnemyState.Shielded)
         {
             currentShield -= damage;
-
+            gameObject.GetComponentInChildren<SpriteRenderer>().color = new Color(1, 0, 1, 1f);
             // switch to destroyed state if shield is destroyed
             if (currentShield <= 0)
             {
                 currentState = EnemyState.Destroyed;
+                gameObject.GetComponentInChildren<SpriteRenderer>().color = Color.white;
             }
         }
         else
         {
+            gameObject.GetComponentInChildren<SpriteRenderer>().color = Color.white;
             // take damage and switch to shielded state if shield is still active
             currentHealth -= damage;
             if (currentHealth <= maxHealth / 2)
@@ -120,6 +141,7 @@ public class GreenEnemy : MonoBehaviour
             if (currentHealth <= 0)
             {
                 PlayerController.Instance.GivePlayerHP(10);
+                SCORE.Instance.AddToScore(6);
                 currentState = EnemyState.Destroyed;
 
             }

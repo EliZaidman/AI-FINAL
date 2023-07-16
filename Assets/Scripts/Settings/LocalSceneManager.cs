@@ -10,6 +10,10 @@ public class LocalSceneManager : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void LoadSceneLOAD()
+    {
+        SceneManager.LoadScene(0);
+    }
     public void Quit()
     {
 #if UNITY_STANDALONE

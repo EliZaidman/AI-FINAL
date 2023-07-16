@@ -903,7 +903,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -227502846, guid: 908ecb82f636afa44bdeddd2c9a317fc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.14507627, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1038,7 +1038,8 @@ MonoBehaviour:
   - {fileID: 2002863601}
   - {fileID: 1576709830}
   fireRate: 1
-  maxShield: 50
+  maxShield: 150
+  currentShield: 150
   maxHealth: 100
   currentState: 0
 --- !u!1 &2608437048524759800

@@ -20,6 +20,7 @@ public class PlayerBullet : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Bullet"))
         {
+            SCORE.Instance.AddToScore(1);
             collision.gameObject.SetActive(false);
             print("DAFAK");
             Destroy(collision.gameObject);
