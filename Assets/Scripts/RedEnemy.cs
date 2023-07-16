@@ -4,92 +4,143 @@ using UnityEngine;
 
 public class RedEnemy : MonoBehaviour
 {
-    public float speed = 5f;
-    public float fireRate = 2f;
-    public float bulletSpeed = 10f;
-    public float health = 10f;
-
-    public Transform playerTransform;
+    public Transform player;
+    public Transform shootPos;
+    public float movementSpeed = 5f;
+    public float rotationSpeed = 180f;
     public GameObject projectilePrefab;
+    public int baseDamage = 10;
+    public float damageMultiplier = 2f;
+    public float speedMultiplier = 2f;
+    public float HP = 2f;
 
-    private Vector3 targetPosition;
-    private float nextFireTime;
+    private enum ShipState
+    {
+        Idle,
+        Following,
+        Shooting
+    }
+
+    [SerializeField] private ShipState currentState = ShipState.Idle;
+    public float nextShootTime;
+    public int currentDamage;
+    public float currentSpeed;
 
     private void Start()
     {
-        targetPosition = GetRandomPosition();
-        playerTransform = GameObject.Find("Player").GetComponentInChildren<Transform>();
+        player = PlayerController.Instance.transform;
+        currentDamage = baseDamage;
+        currentSpeed = movementSpeed;
     }
 
+    public float pewpewTime = 4;
     private void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
-
-        if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
+        pewpewTime += Time.deltaTime;
+        switch (currentState)
         {
-            targetPosition = GetRandomPosition();
-        }
-
-        Vector3 direction = playerTransform.position - transform.position;
-        direction.z = 0f;
-        transform.up = direction.normalized;
-
-        if (Time.time > nextFireTime)
-        {
-            Fire();
-            nextFireTime = Time.time + 1f / fireRate;
+            case ShipState.Idle:
+                IdleState();
+                break;
+            case ShipState.Following:
+                FollowingState();
+                break;
+            case ShipState.Shooting:
+                ShootingState();
+                break;
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void IdleState()
     {
-        Projectile projectile = collision.GetComponent<Projectile>();
-
-        if (projectile != null)
+        // Transition to Following state when player is within a certain range
+        float distance = Vector3.Distance(transform.position, player.position);
+        if (distance > 10f)
         {
-            health -= projectile.damage;
-
-            if (health <= 0)
-            {
-                Destroy(gameObject);
-            }
+            currentState = ShipState.Following;
         }
     }
 
-    public void Fire()
+    private void FollowingState()
     {
-        // Instantiate the projectile prefab
-        GameObject projectile = Instantiate(projectilePrefab, transform.position, new Quaternion(0,0,0,0));
+        // Rotate towards the player
+        Vector3 direction = (player.position - transform.position).normalized;
+        Quaternion lookRotation = Quaternion.LookRotation(Vector3.forward, direction);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, rotationSpeed * Time.deltaTime);
 
-        // Calculate direction to player
-        Vector3 direction = playerTransform.position - transform.position;
-        direction.x = 0f; // Set the z-component to 0 to ensure movement only in the x-y plane
+        // Move towards the player
+        transform.position = Vector3.MoveTowards(transform.position, player.position, currentSpeed * Time.deltaTime);
 
-        // Set the rotation of the projectile to look towards the player only on the z-axis
-        Quaternion rotation = Quaternion.LookRotation(Vector3.forward, direction);
-
-        rotation.x = 0f;
-        rotation.y = 0f;
-        // Set the rotation of the projectile
-        projectile.transform.rotation = rotation;
-
-        // Get the projectile script component and fire the projectile
-        Projectile projectileScript = projectile.GetComponent<Projectile>();
-        projectileScript.Fire(playerTransform.position);
+        // Transition to Shooting state when facing the player
+        float angle = Quaternion.Angle(transform.rotation, lookRotation);
+        float distance = Vector3.Distance(transform.position, player.position);
+        if (distance > 16f)
+        {
+            currentState = ShipState.Shooting;
+        }
+        if (angle < 5f)
+        {
+            //currentState = ShipState.Shooting;
+            //nextShootTime = Time.time;
+        }
     }
 
-    private Vector3 GetRandomPosition()
+    private void ShootingState()
     {
-        float x = Random.Range(-10f, 10f);
-        float y = Random.Range(-30f, 30f);
-        return new Vector3(x, y, transform.position.z);
+        // Shoot projectiles at the player
+        if (nextShootTime <= pewpewTime)
+        {
+            pewpewTime = 0;
+            StartCoroutine(PewPew());
+        }
+
+        // Transition back to Following state when the player is out of range
+        float distance = Vector3.Distance(transform.position, player.position);
+        if (distance > 15f)
+        {
+            currentState = ShipState.Following;
+        }
     }
 
-    public void TakeDamage(float damage)
+    IEnumerator PewPew()
     {
-        health -= damage;
-        print("HIT!!!!!!00");
-        if (health <= 0)
+        Shoot();
+        yield return new WaitForSeconds(0.2f);
+        Shoot();
+        yield return new WaitForSeconds(0.2f);
+        Shoot();
+        yield return new WaitForSeconds(0.2f);
+        Shoot();
+    }
+    private void Shoot()
+    {
+        // Instantiate a projectile and set its damage
+        GameObject projectile = Instantiate(projectilePrefab, shootPos.position, Quaternion.identity);
+        RedGun projectileController = projectile.GetComponent<RedGun>();
+        projectileController.damage = currentDamage;
+
+        // Set the projectile's velocity based on its forward direction
+        Rigidbody2D projectileRigidbody = projectile.GetComponent<Rigidbody2D>();
+        projectileRigidbody.velocity = transform.up * projectileController.speed;
+
+        // Destroy the projectile after a certain time
+        Destroy(projectile, 3f);
+    }
+
+    bool tookDMG = false;
+    public void TakeDamage(float hp)
+    {
+        // Double the damage and speed
+        if (!tookDMG)
+        {
+            tookDMG = true;
+            currentDamage *= 2;
+            currentSpeed *= 5;
+            GetComponentInChildren<SpriteRenderer>().color = Color.red;
+        }
+        HP -= hp;
+
+        if (HP <= 0)
         {
             Destroy(gameObject);
         }

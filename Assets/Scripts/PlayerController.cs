@@ -4,8 +4,43 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private static PlayerController instance;
+    // Public property to access the instance
+    public static PlayerController Instance
+    {
+        get
+        {
+            // Check if the instance is null
+            if (instance == null)
+            {
+                // Find the singleton instance in the scene
+                instance = FindObjectOfType<PlayerController>();
+
+                // If no instance found, create a new GameObject and attach the singleton component to it
+                if (instance == null)
+                {
+                    GameObject singletonObject = new GameObject(typeof(PlayerController).Name);
+                    instance = singletonObject.AddComponent<PlayerController>();
+                }
+
+                // Make sure the singleton instance persists between scene changes
+                DontDestroyOnLoad(instance.gameObject);
+            }
+
+            return instance;
+        }
+    }
+    private void Awake()
+    {
+        // Enforce the singleton pattern by destroying duplicate instances
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
     // movement variables
     public float moveSpeed = 5f;
+    public GameObject looseScreen;
 
     // shooting variables
     public GameObject bulletPrefab;
@@ -17,7 +52,8 @@ public class PlayerController : MonoBehaviour
     // health variables
     public float maxHealth = 100f;
     private float currentHealth;
-
+    public float GetCurrentHealth() { return currentHealth; }
+    public float GetMaxHealth() { return maxHealth; }
     private void Start()
     {
         currentHealth = maxHealth;
@@ -68,5 +104,8 @@ public class PlayerController : MonoBehaviour
         // do something when the player dies, such as restart the level or show a game over screen
         Debug.Log("Player has died.");
         gameObject.SetActive(false);
+        looseScreen.SetActive(true);
     }
+
+    public void GivePlayerHP(int hp) { currentHealth += hp; }
 }

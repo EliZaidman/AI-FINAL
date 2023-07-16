@@ -24,7 +24,7 @@ public class BlueGun : MonoBehaviour
     void Update()
     {
         //transform.position += transform.forward * speed * Time.deltaTime;
-
+        if(targetPosition == null)
         transform.position = Vector3.MoveTowards(transform.position, lastPos.position, speed * Time.deltaTime);
 
     }

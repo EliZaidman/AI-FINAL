@@ -112,7 +112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2782563991941339486}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.163, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -153,12 +153,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 438a0ac4976686d4a88dfe30677faa49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  fireRate: 4
-  bulletSpeed: 10
-  health: 10
-  playerTransform: {fileID: 0}
+  player: {fileID: 0}
+  shootPos: {fileID: 2782563992960222158}
+  movementSpeed: 5
+  rotationSpeed: 180
   projectilePrefab: {fileID: 1264646384044146700, guid: 514529ca57cef834d84d1e3d4c80d8df, type: 3}
+  baseDamage: 5
+  damageMultiplier: 2
+  speedMultiplier: 2
+  HP: 100
+  currentState: 0
+  nextShootTime: 0
+  currentDamage: 0
+  currentSpeed: 0
+  pewpewTime: 4
 --- !u!61 &3856806400533745113
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -209,7 +217,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2782563992960222145}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.865, y: -0, z: 0}
+  m_LocalPosition: {x: 1.447, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

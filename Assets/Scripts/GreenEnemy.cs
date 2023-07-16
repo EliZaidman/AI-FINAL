@@ -119,7 +119,9 @@ public class GreenEnemy : MonoBehaviour
             // switch to destroyed state if health is low
             if (currentHealth <= 0)
             {
+                PlayerController.Instance.GivePlayerHP(10);
                 currentState = EnemyState.Destroyed;
+
             }
         }
     }

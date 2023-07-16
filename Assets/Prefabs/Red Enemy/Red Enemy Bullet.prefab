@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1264646384044146690}
   - component: {fileID: 1264646384044146691}
-  - component: {fileID: 7837303233829492909}
   - component: {fileID: 4042200027659327317}
   - component: {fileID: 3196521502011781437}
+  - component: {fileID: -3678300862622221804}
   m_Layer: 0
   m_Name: Red Enemy Bullet
   m_TagString: Untagged
@@ -87,21 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7837303233829492909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1264646384044146700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 965d07309fb68d548ad29251f9b78475, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  lifetime: 2
-  damage: 10
 --- !u!61 &4042200027659327317
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -149,3 +134,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-3678300862622221804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264646384044146700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dacb8d3a19063564594c13592e906745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  speed: 20
+  lifetime: 2

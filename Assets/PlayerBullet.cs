@@ -7,10 +7,11 @@ public class PlayerBullet : MonoBehaviour
     public float speed = 10f;
     public float lifetime = 1f;
     public float damage = 0.5f;
-
+    PlayerController _player;
     void Start()
     {
         Destroy(gameObject, lifetime);
+        _player = PlayerController.Instance;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

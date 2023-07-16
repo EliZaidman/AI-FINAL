@@ -117,6 +117,7 @@ public class BlueEnemy : MonoBehaviour
             if (currentHealth <= 0)
             {
                 currentState = EnemyState.Destroyed;
+                PlayerController.Instance.GivePlayerHP(10);
             }
         }
     }
